@@ -1,9 +1,7 @@
 <h1>File Permissions</h1>
 
-### [YouTube Demonstration](https://youtu.be/your_youtube_link_here)
-
 <h2>Description</h2>
-
+Secure file management involves protecting files from unauthorized access, modification, or deletion. It ensures data confidentiality, integrity, and availability through encryption, access controls, and auditing. Proper file management helps prevent data breaches, ensures compliance with security policies, and safeguards sensitive information from cyber threats.
 <h2>Project Overview</h2>
     <p>This project involves reviewing and managing file permissions on a Linux system as the user <code>researcher2</code>. It covers essential Linux commands to view and modify permissions for users, groups, and others.</p>
 <h2>Viewing File Permissions</h2>
@@ -59,7 +57,7 @@
     </ul>
 
 <h2>Modifying File Permissions</h2>
-    <p>To adhere to organizational policy, we need to restrict write permissions for Others. For example, to remove write permissions for <code>project_k.txt</code>, the command used is:</p>
+    <p>To adhere to organizational policy, we need to restrict write permissions for Others on the <code>project_k.txt</code> file. To remove write permissions for <code>project_k.txt</code>, the command used is:</p>
     <pre><code>chmod o-w project_k.txt</code></pre>
 
 <h3>Changing Permissions on a Hidden File</h3>
